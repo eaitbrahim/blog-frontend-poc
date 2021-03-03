@@ -19,6 +19,9 @@ const routes: Routes = [{
 },
 {
   path: ':key', component: ArticleComponent
+},
+{
+  path: '**', component: NotFoundComponent
 }
 ];
 
