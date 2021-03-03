@@ -1,3 +1,4 @@
+import { NotFoundComponent } from './not-found/not-found.component';
 import { ArticleListComponent } from './article-list/article-list.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
@@ -9,6 +10,9 @@ const routes: Routes = [{
 },
 {
   path: 'about', component: AboutComponent
+},
+{
+  path: '404', component: NotFoundComponent
 },
 {
   path: '', component: ArticleListComponent
